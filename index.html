@@ -9,14 +9,16 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #121212;
-            color: #ffffff;
+            background-color: #f8f9fa;
+            color: #333;
             text-align: center;
         }
         header {
-            background-color: #1e1e1e;
+            background-color: #ffcc00;
             padding: 20px;
             font-size: 24px;
+            font-weight: bold;
+            color: #333;
         }
         .container {
             display: grid;
@@ -27,7 +29,6 @@
             margin: auto;
         }
         .block {
-            background-color: #1e1e1e;
             padding: 40px;
             border-radius: 10px;
             text-decoration: none;
@@ -37,13 +38,17 @@
             transition: 0.3s;
         }
         .block:hover {
-            background-color: #007bff;
             transform: scale(1.05);
         }
+        .cybersecurity { background-color: #ff5733; } /* Bright Red-Orange */
+        .drawing { background-color: #33b5ff; } /* Bright Blue */
+        .music { background-color: #33d17a; } /* Bright Green */
         footer {
             margin-top: 20px;
             padding: 10px;
-            background-color: #1e1e1e;
+            background-color: #ffcc00;
+            color: #333;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -58,9 +63,9 @@
     </section>
 
     <div class="container">
-        <a href="cybersecurity.html" class="block">Cybersecurity</a>
-        <a href="drawing.html" class="block">Drawing</a>
-        <a href="music.html" class="block">Music</a>
+        <a href="cybersecurity.html" class="block cybersecurity">Cybersecurity</a>
+        <a href="drawing.html" class="block drawing">Drawing</a>
+        <a href="music.html" class="block music">Music</a>
     </div>
 
     <footer>
